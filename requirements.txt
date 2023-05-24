@@ -6,3 +6,4 @@ streamlit-on-Hover-tabs
 matplotlib
 prophet
 pandas
+seaborn
