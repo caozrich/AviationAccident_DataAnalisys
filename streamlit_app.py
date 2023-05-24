@@ -859,6 +859,7 @@ def page_5():
 
     accidentes_aereos = ['date', 'time', 'Ruta', 'operator', 'flight_no', 'type', 'ac_type', 'registration', 'cn_ln', 'all_aboard', 'Passengers Aboard', 'crew_aboard', 'fatalities', 'passenger_fatalities', 'crew_fatalities', 'ground', 'summary', 'Country', 'Cleaned Country']
     st.title("Implementación de SQL - Accidentes de aviones:")
+    st.markdown("""<hr style="height:7px;border:none;color:#5470C6;background-color:#5470C6;" /> """, unsafe_allow_html=True)
 
     # Columns/Layout
     col1, col2 = st.columns(2)
@@ -890,7 +891,7 @@ def page_5():
                 query_df = pd.DataFrame(result, columns=[desc[0] for desc in cursor.description])
                 st.dataframe(query_df)
 
-
+  
 
 with st.sidebar:
     tabs = on_hover_tabs(tabName=['Dashboard', 'Reporte de análisis', 'SQL'], 
