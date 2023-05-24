@@ -93,27 +93,28 @@ Presentar los hallazgos obtenidos del análisis de datos a través del informe d
 - Seleccionar las variables numéricas relevantes en las que se desea detectar outliers.
 - Aplicar métodos de detección de outliers, como el rango intercuartil (IQR) Y el método de los valores extremos
 
-### KPIs
+## KPIs
+
 **_Tasa de mortalidad_**: Proporción de fallecimientos en relación con el total de personas involucradas en accidentes aéreos.
 - Indica la eficacia de las medidas de seguridad y se expresa como un porcentaje.
-   * Tasa de mortalidad total: **71.77**
-   * Año con la tasa de mortalidad más alta: **1919** (115)
-   * Año con la tasa de mortalidad más baja: **1999** (30)
+   * Tasa de mortalidad total: **71.77**.
+   * Año con la tasa de mortalidad más alta: **1919** (115).
+   * Año con la tasa de mortalidad más baja: **1999** (30).
 **_TTasa de supervivencia_**: Proporción de personas que sobreviven a los accidentes aéreos. 
 -Muestra la efectividad de las medidas de rescate y evacuación, y se expresa como un porcentaje.
-   * Tasa de supervivencia total: **30.77**
-   * Año con la tasa de supervivencia más alta: **1909** (100.0)
-   * Año con la tasa de supervivencia más baja: **1919** (-5.0)
+   * Tasa de supervivencia total: **30.77**.
+   * Año con la tasa de supervivencia más alta: **1909** (100.0).
+   * Año con la tasa de supervivencia más baja: **1919** (-5.0).
 **_Media de fallecidos**_: Promedio del número de fallecidos en accidentes aéreos.
 - Brinda una medida general del impacto en pérdidas humanas.
-  * Media de fatalidades total: **22.29**
-  * Año con el media más alta de fatalidades: **2014** (49.6)
-  * Año con el media más baja de fatalidades: **1908** (1.0)
+  * Media de fatalidades total: **22.29**.
+  * Año con el media más alta de fatalidades: **2014** (49.6).
+  * Año con el media más baja de fatalidades: **1908** (1.0).
 **_% de accidentes sin supervivientes_**: Proporción de accidentes en los que no hubo ningún superviviente. 
 - Destaca la gravedad de los accidentes sin posibilidad de rescate y la necesidad de mejorar las posibilidades de supervivencia.
-  * Porcentaje de accidentes sin supervivientes total: **63.5**
-  * Año con el mayor porcentaje de accidentes sin supervivientes: **1909** (100.0)
-  * Año con el menor porcentaje de accidentes sin supervivientes: **2020** (37.5)
+  * Porcentaje de accidentes sin supervivientes total: **63.5**.
+  * Año con el mayor porcentaje de accidentes sin supervivientes: **1909** (100.0).
+  * Año con el menor porcentaje de accidentes sin supervivientes: **2020** (37.5).
 
 
 
