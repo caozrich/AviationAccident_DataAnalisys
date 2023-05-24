@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="Files Logo" src="https://github.com/caozrich/FilmRecSys-ML-DevOps/assets/34092193/8d3f6f12-8472-49ed-8213-287ec46a7373" width="450" />
+  <img alt="Files Logo" src="https://github.com/caozrich/AviationIncidentDashboard/assets/34092193/d0356121-de8c-430f-ba92-bf7fc54616f8" width="450" />
   <h1 align=center style="color: #FF2403">Proyecto de análisis de accidentes aéreos</h1>
 </p>
 
