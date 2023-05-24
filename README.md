@@ -76,16 +76,22 @@ Los objetivos del proyecto son los siguientes:
 ### 3.Visualización de variables:
 - Número de accidentes por año: Representar gráficamente la cantidad de accidentes aéreos registrados en cada año.
   * Se aprecia un decremento significativo desde **1990** y esto se debe a las mejora en los protocolos de seguridad.
+  
 - Número de fatalidades por año: Mostrar la evolución del número de fatalidades en accidentes aéreos a lo largo de los años.
   * Al igual que con el número de accidentes, las fatalidades también siguen la dicha tendencia debido a la correlación de esas dos variables.
+  
 - Número de accidentes por país: Crear un gráfico que muestre la distribución de accidentes por país.
   * Se aprecia claramente como **Estados Unidos** es el país con más accidentes aereos superando por mucho a los otros países con más accidentes, y esto se debe a que es una de las principales rutas de tráfico en la aeronáutica comercial.
+  
 - Número de accidentes por mes: Visualizar la frecuencia de accidentes aéreos según el mes del año.
   * El mes con mas accidentes aereos es **Diciembre**, y esto coincide con la descomposicion estacionaria que muestra un patron de incremento al final de cada año, Esto podría deberse al aumento del tráfico durante la temporada de festividades y vacaciones.
+  
 - Número de accidentes por hora del  día: Mostrar la cantidad de accidentes aéreos por hora del día.
   * Se aprecia un rango de tiempo (de **8:00 am** a **8:00 pm**) en el cual el número de accidentes es bastante alto. Esto se debe a que son horas de mayor actividad en el tráfico aéreo, coincidiendo con los horarios de mayor demanda de vuelos comerciales y operaciones aéreas en general.
+  
 - Número de accidentes por operador: Representar gráficamente la frecuencia de accidentes según los operadores de las aeronaves involucradas.
-  * Se observa que el operador Aeroflot tiene un número de accidentes notablemente alto, considerando que el segundo puesto lo ocupa un operador militar. Esto podría deberse a que Aeroflot es una aerolínea establecida desde **1923** y la más grande de Rusia, lo que implica que su volumen de vuelos es proporcional a la cantidad de accidentes
+  * Se observa que el operador Aeroflot tiene un número de accidentes notablemente alto, considerando que el segundo puesto lo ocupa un operador militar. Esto podría deberse a que Aeroflot es una aerolínea establecida desde **1923** y la más grande de Rusia, lo que implica que su volumen de vuelos es proporcional a la cantidad de accidentes.
+  
 - Nube de palabras con la columna "summary": Generar una nube de palabras que resalte las palabras más frecuentes en la columna "summary" para identificar patrones o temas comunes.
   * En este gráfico de nube de palabras se puede observar que las palabras más comunes en las descripciones de los accidentes coinciden con el contexto del conjunto de datos. Algunas de ellas son especialmente interesantes, como **_land, failure, takeoff, y ground_**.
 
