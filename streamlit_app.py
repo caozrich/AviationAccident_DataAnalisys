@@ -7,7 +7,7 @@ from datetime import datetime
 import numpy as np
 import seaborn as sns
 import streamlit as st
-from prophet import Prophet
+#from prophet import Prophet
 from st_on_hover_tabs import on_hover_tabs
 from streamlit_echarts import JsCode
 from streamlit_echarts import Map
@@ -741,33 +741,39 @@ def page_3():
     st.markdown("""<hr style="height:7px;border:none;color:#5470C6;background-color:#5470C6;" /> """, unsafe_allow_html=True)
     st.markdown("<h1 style='text-align: center; color: black;'>Pronóstico de Fatalidades por Año</h1>", unsafe_allow_html=True)
     st.markdown("<h2 style='text-align: center; color: black;'>Pronóstico de Fatalidades a 10 años en el futuro</h2>", unsafe_allow_html=True)
-
-    model = Prophet()
-    model.fit(data)
     
-    future = pd.date_range(start=data['ds'].min(), periods=len(data) - 50, freq='Y')
-    future = pd.DataFrame({'ds': future})
+    image = Image.open('img/forescasting.png')
 
-    forecast = model.predict(future)
+    st.image(image)
+    #model = Prophet()
+    #model.fit(data)
+    
+    #future = pd.date_range(start=data['ds'].min(), periods=len(data) - 50, freq='Y')
+    #future = pd.DataFrame({'ds': future})
+    
+    #forecast = model.predict(future)
 
-    fig = model.plot(forecast)
-    plt.xlabel('Año')
-    plt.ylabel('Fatalidades')
-    plt.title("")
-    plt.grid(False) 
-    color = (145/255, 204/255, 117/255)
-    plt.gca().get_lines()[0].set_markerfacecolor(color)
-    plt.gca().get_lines()[0].set_markeredgecolor(color)
-    line_color = (84/255, 112/255, 198/255)  # Color rojo (RGB)
-    lines = plt.gca().get_lines()
-    for line in lines:
-        line.set_color(line_color)
-    st.pyplot(fig)
-    st.divider() 
+    #fig = model.plot(forecast)
+    #plt.xlabel('Año')
+    #plt.ylabel('Fatalidades')
+    #plt.title("")
+    #plt.grid(False) 
+    #color = (145/255, 204/255, 117/255)
+    #plt.gca().get_lines()[0].set_markerfacecolor(color)
+    #plt.gca().get_lines()[0].set_markeredgecolor(color)
+    #line_color = (84/255, 112/255, 198/255)  # Color rojo (RGB)
+    #lines = plt.gca().get_lines()
+    #for line in lines:
+        #line.set_color(line_color)
+    #st.pyplot(fig)
+    #st.divider() 
     st.markdown("<h2 style='text-align: center; color: black;'>Tendencia de los últimos 50 años y Descomposición Estacional</h2>", unsafe_allow_html=True)
-    fig = model.plot_components(forecast)
-    plt.grid(False) 
-    st.pyplot(fig)
+    image2 = Image.open('img/seasonal.png')
+
+    st.image(image2)
+    #fig = model.plot_components(forecast)
+    #plt.grid(False) 
+    #st.pyplot(fig)
 
 
 
