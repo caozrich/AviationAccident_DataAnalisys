@@ -41,26 +41,46 @@ Presentar los hallazgos obtenidos del análisis de datos a través del informe d
 [Acede aquí al júpiter notebook](https://github.com/caozrich/AviationIncidentDashboard/blob/main/ETL.ipynb)
 
 ### 1. cargar los dataset a usar:
-- Cargar el dataset [provisto](https://github.com/caozrich/AviationIncidentDashboard/blob/main/data/AccidentesAviones.csv)  y el dataset adicional _https://www.kaggle.com/datasets/warcoder/civil-aviation-accidents?resource=download_.
+- Cargar el dataset [provisto](https://github.com/caozrich/AviationIncidentDashboard/blob/main/data/AccidentesAviones.csv)  y el   dataset adicional _https://www.kaggle.com/datasets/warcoder/civil-aviation-accidents?resource=download_.
 
-### Corregir nombre de columnas y reemplazar nulos por "?":
--Verificar y corregir los nombres de las columnas del dataset para asegurar consistencia.
--Identificar columnas con valores nulos y reemplazarlos por el carácter "?" para mantener una representación uniforme.
--Transformar los diferentes formatos de hora a HH:MM:
+### 2. Corregir nombre de columnas y reemplazar nulos por "?":
+- Verificar y corregir los nombres de las columnas del dataset para asegurar consistencia.
+- Identificar columnas con valores nulos y reemplazarlos por el carácter "?" para mantener una representación uniforme.
+- Transformar los diferentes formatos de hora a HH:MM:
 
-### Identificar las columnas que contienen información de hora en formatos diferentes.
--Realizar la transformación de los diferentes formatos de hora a un formato estandarizado **HH:MM**.
+### 3. Identificar las columnas que contienen información de hora en formatos diferentes.
+- Realizar la transformación de los diferentes formatos de hora a un formato estandarizado **HH:MM**.
 
-### Analizar la columna "Ruta" para identificar las locaciones presentes.
--Convertir las locaciones de la columna "Ruta" a nombres de países:
+### 4. Analizar la columna "Ruta" para identificar las locaciones presentes.
+- Convertir las locaciones de la columna "Ruta" a nombres de países:
 
-### Identificar las columnas más relevantes en cada dataset para el análisis de accidentes aéreos.
+### 5. Identificar las columnas más relevantes en cada dataset para el análisis de accidentes aéreos.
 - Realizar una combinación de los datasets utilizando columnas clave, como la fecha del accidente, número de vuelo y fatalidades.
 
-### Guardar los datasets en formato .csv:
+### 6. Guardar los datasets en formato .csv:
 - Guardar el dataset resultante del proceso de ETL.
 - Guardar el nuevo dataset resultante de la combinación de los datos en un archivo .csv.
 - Asegurarse de que el archivo .csv sea fácilmente accesible y esté listo para su uso posterior en análisis y visualización.
 
 ## Análisis Exploratorio de Datos (EDA)
-[Acede aquí al júpiter notebook](https://github.com/caozrich/FilmRecSys-ML-DevOps/blob/main/EDA.ipynb)
+[Acede aquí al júpiter notebook](https://github.com/caozrich/AviationIncidentDashboard/blob/main/EDA.ipynb)
+
+### 1.Lectura del conjunto de datos:
+- Utilizar la función pd.read_csv() para cargar el conjunto de datos en un DataFrame. 
+- 
+### 2.Exploración del conjunto de datos:
+- Utilizar métodos como df.head(), df.info(), df.describe(), entre otros, para obtener una vista inicial del conjunto de datos. Estos métodos proporcionan información sobre las primeras filas, la estructura de las columnas, el resumen estadístico, etc.
+- 
+### 3.Visualización de variables:
+- Número de accidentes por año: Representar gráficamente la cantidad de accidentes aéreos registrados en cada año.
+- Número de fatalidades por año: Mostrar la evolución del número de fatalidades en accidentes aéreos a lo largo de los años.
+- Número de accidentes por país: Crear un gráfico que muestre la distribución de accidentes por país.
+- Número de accidentes por mes: Visualizar la frecuencia de accidentes aéreos según el mes del año.
+- Número de accidentes por día: Mostrar la cantidad de accidentes aéreos por día del mes o día de la semana.
+- Número de accidentes por operador: Representar gráficamente la frecuencia de accidentes según los operadores de las aeronaves involucradas.
+- Nube de palabras con la columna "summary": Generar una nube de palabras que resalte las palabras más frecuentes en la columna "summary" para identificar patrones o temas comunes.
+- 
+### 4.Análisis estadístico:
+- Utilizar el método df.describe() para obtener estadísticas descriptivas de las variables numéricas del conjunto de datos.
+- Calcular la matriz de correlación para evaluar las relaciones entre las variables numéricas y detectar posibles correlaciones.
+- Realizar análisis univariado de variables específicas para comprender su distribución y características individuales.
