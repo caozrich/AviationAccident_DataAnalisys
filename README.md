@@ -89,7 +89,7 @@ Presentar los hallazgos obtenidos del análisis de datos a través del informe d
 - Realizar análisis univariado de variables específicas para comprender su distribución y características individuales.
 
 ### 5. Forecasting (de fatalidades por año):
--Realizar una exploración visual y estadística de la variable objetivo para comprender su distribución, tendencia y patrones temporales.
+- Realizar una exploración visual y estadística de la variable objetivo para comprender su distribución, tendencia y patrones temporales.
   * la descomposicíon estacional nos dejo ver que hay un incremento a final de cada año y posterior decremento al comienzo del   siguiente.
 
 ### 6. Detección de outliers numéricas:
@@ -126,10 +126,15 @@ Presentar los hallazgos obtenidos del análisis de datos a través del informe d
 
 ## Aplicación Web:
 
-<img src="https://github.com/caozrich/FilmRecSys-ML-DevOps/assets/34092193/b420beb7-718e-412a-992b-ff8a39fb998c" width="700" height="438"/>
+<img src="https://github.com/caozrich/AviationAccident_DataAnalisys/assets/34092193/e1a82247-9d5e-466f-8850-b786d849770a" width="700" height="438"/>
+<img src="https://github.com/caozrich/AviationAccident_DataAnalisys/assets/34092193/f2441136-5705-4588-ac8f-2dd4661800d3" width="700" height="438"/>
+<img src="https://github.com/caozrich/AviationAccident_DataAnalisys/assets/34092193/72ac376b-cc82-48d5-8262-0fffb39a2b56" width="700" height="438"/>
+<img src="https://github.com/caozrich/AviationAccident_DataAnalisys/assets/34092193/589b89d7-d523-4fad-af87-e0315a943871" width="700" height="438"/>
 
 Se desarrolló un **dashboard** interactivo utilizando `Streamlit`, La interfaz es intuitiva y fácil de usar.
-
+ * contiene graficos interactivos de varios tipos
+ * contiene un informe de analisis.
+ * contiene una implementacion del motor **SQL**
 
 - Accede a la app desplegada en Streamlit Cloud (https://caozrich-aviationaccident-dataanalisys-streamlit-app-e7zt50.streamlit.app/) 
 
