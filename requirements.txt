@@ -1,0 +1,8 @@
+streamlit==1.22.0
+altair==4.2.2
+numpy==1.24.3
+streamlit_echarts
+streamlit-on-Hover-tabs
+matplotlib
+prophet
+pandas
