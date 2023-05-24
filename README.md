@@ -65,12 +65,14 @@ Presentar los hallazgos obtenidos del análisis de datos a través del informe d
 ## Análisis Exploratorio de Datos (EDA)
 [Acede aquí al júpiter notebook](https://github.com/caozrich/AviationIncidentDashboard/blob/main/EDA.ipynb)
 
+<img src="https://github.com/caozrich/AviationIncidentDashboard/assets/34092193/abe6f226-dffe-4126-9718-8263dc71c251" width="800" height="538"/>
+
 ### 1.Lectura del conjunto de datos:
 - Utilizar la función pd.read_csv() para cargar el conjunto de datos en un DataFrame. 
-- 
+
 ### 2.Exploración del conjunto de datos:
 - Utilizar métodos como df.head(), df.info(), df.describe(), entre otros, para obtener una vista inicial del conjunto de datos. Estos métodos proporcionan información sobre las primeras filas, la estructura de las columnas, el resumen estadístico, etc.
-- 
+
 ### 3.Visualización de variables:
 - Número de accidentes por año: Representar gráficamente la cantidad de accidentes aéreos registrados en cada año.
 - Número de fatalidades por año: Mostrar la evolución del número de fatalidades en accidentes aéreos a lo largo de los años.
@@ -79,7 +81,7 @@ Presentar los hallazgos obtenidos del análisis de datos a través del informe d
 - Número de accidentes por día: Mostrar la cantidad de accidentes aéreos por día del mes o día de la semana.
 - Número de accidentes por operador: Representar gráficamente la frecuencia de accidentes según los operadores de las aeronaves involucradas.
 - Nube de palabras con la columna "summary": Generar una nube de palabras que resalte las palabras más frecuentes en la columna "summary" para identificar patrones o temas comunes.
-- 
+
 ### 4.Análisis estadístico:
 - Utilizar el método df.describe() para obtener estadísticas descriptivas de las variables numéricas del conjunto de datos.
 - Calcular la matriz de correlación para evaluar las relaciones entre las variables numéricas y detectar posibles correlaciones.
