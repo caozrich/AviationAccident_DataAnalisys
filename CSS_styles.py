@@ -10,7 +10,7 @@ def apply_styles():
             f"""
             <style>
             .stApp {{
-                background: url(data:image/{main_bg_ext};base64,{base64.b64encode(open('background.png', "rb").read()).decode()});
+                background: url(data:image/{main_bg_ext};base64,{base64.b64encode(open('img/background.png', "rb").read()).decode()});
                 background-size: cover
             }}
             </style>
