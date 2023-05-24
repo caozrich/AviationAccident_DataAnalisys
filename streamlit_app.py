@@ -1,5 +1,6 @@
 import altair as alt
 import json
+import sqlite3 
 import matplotlib.pyplot as plt
 import pandas as pd
 from collections import defaultdict
@@ -846,12 +847,57 @@ def page_4():
 
 
 
+def sql_executor(raw_code):
+    c.execute(raw_code)
+    data = c.fetchall()
+    return data 
+
+
+def page_5():
+    conn = sqlite3.connect('data/AA_Cleaned.db')
+    cursor = conn.cursor()
+
+    accidentes_aereos = ['date', 'time', 'Ruta', 'operator', 'flight_no', 'type', 'ac_type', 'registration', 'cn_ln', 'all_aboard', 'Passengers Aboard', 'crew_aboard', 'fatalities', 'passenger_fatalities', 'crew_fatalities', 'ground', 'summary', 'Country', 'Cleaned Country']
+    st.title("Implementación de SQL - Accidentes de aviones:")
+
+    # Columns/Layout
+    col1, col2 = st.columns(2)
+
+    with col1:
+        with st.form(key='query_form'):
+            raw_code = st.text_area("SQL query:","SELECT * FROM accidentes_aereos LIMIT 10")
+            submit_code = st.form_submit_button("Execute")
+
+        # Table of Info
+        with st.expander("Tabla Info"):
+            table_info = {'accidentes_aereos': accidentes_aereos}
+            st.json(table_info)
+
+    # Results Layouts
+    with col2:
+        if submit_code:
+            st.info("Query Submitted")
+            st.code(raw_code)
+
+            # Results
+            cursor.execute(raw_code)
+            result = cursor.fetchall()
+
+            with st.expander("Results"):
+                st.write(result)
+
+            with st.expander("Pretty Table"):
+                query_df = pd.DataFrame(result, columns=[desc[0] for desc in cursor.description])
+                st.dataframe(query_df)
+
+
+
 with st.sidebar:
-    tabs = on_hover_tabs(tabName=['Dashboard', 'Reporte de análisis'], 
-                         iconName=['dashboard', 'plagiarism'], default_choice=0)
+    tabs = on_hover_tabs(tabName=['Dashboard', 'Reporte de análisis', 'SQL'], 
+                         iconName=['dashboard', 'plagiarism','database'], default_choice=0)
 
 if tabs =='Dashboard':
-    st.title("Dashboard - Accidentes aéreos")
+    st.title("Dashboard")
     tab1,tab2,tab3 = st.tabs(["General Data", "Specific Data", "Forecasting"])
     with tab1:
         page_1()
@@ -866,10 +912,8 @@ elif tabs == 'Reporte de análisis':
     page_4()
 
 
-elif tabs == 'Economy':
-    st.title("Tom")
-
-
+elif tabs == 'SQL':
+    page_5()
 
 
 
