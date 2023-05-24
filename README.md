@@ -8,10 +8,9 @@
 
 ## Contenido
 - [Descripción](#Descripción)
-- [Pipeline](#Pipeline)
 - [ETL](#Extracción-Transformación-y-Carga-ETL)
 - [EDA](#Análisis-Exploratorio-de-Datos-EDA)
-- [KPIs](#KPIs
+- [KPIs](#KPIs)
 - [Dashboard](#Dashboard)
 - [Contribuciones](#Contribuciones)
 - [Contacto](#Contacto)
@@ -86,3 +85,33 @@ Presentar los hallazgos obtenidos del análisis de datos a través del informe d
 - Utilizar el método df.describe() para obtener estadísticas descriptivas de las variables numéricas del conjunto de datos.
 - Calcular la matriz de correlación para evaluar las relaciones entre las variables numéricas y detectar posibles correlaciones.
 - Realizar análisis univariado de variables específicas para comprender su distribución y características individuales.
+
+## 5. Forecasting (de fatalidades por año):
+-Realizar una exploración visual y estadística de la variable objetivo para comprender su distribución, tendencia y patrones temporales.
+
+## 6. Detección de outliers numéricas:
+- Seleccionar las variables numéricas relevantes en las que se desea detectar outliers.
+- Aplicar métodos de detección de outliers, como el rango intercuartil (IQR) Y el método de los valores extremos
+
+### KPIs
+**_Tasa de mortalidad_**: Proporción de fallecimientos en relación con el total de personas involucradas en accidentes aéreos.
+- Indica la eficacia de las medidas de seguridad y se expresa como un porcentaje.
+   * Tasa de mortalidad total: **71.77**
+Año con la tasa de mortalidad más alta: 1919 (115)
+Año con la tasa de mortalidad más baja: 1999 (30)
+Tasa de supervivencia: Proporción de personas que sobreviven a los accidentes aéreos. Muestra la efectividad de las medidas de rescate y evacuación, y se expresa como un porcentaje.
+Tasa de supervivencia total: 30.77
+Año con la tasa de supervivencia más alta: 1909 (100.0)
+Año con la tasa de supervivencia más baja: 1919 (-5.0)
+Media de fallecidos: Promedio del número de fallecidos en accidentes aéreos. Brinda una medida general del impacto en pérdidas humanas.
+Media de fatalidades total: 22.29
+Año con el media más alta de fatalidades: 2014 (49.6)
+Año con el media más baja de fatalidades: 1908 (1.0)
+% de accidentes sin supervivientes: Proporción de accidentes en los que no hubo ningún superviviente. Destaca la gravedad de los accidentes sin posibilidad de rescate y la necesidad de mejorar las posibilidades de supervivencia.
+Porcentaje de accidentes sin supervivientes total: 63.5
+Año con el mayor porcentaje de accidentes sin supervivientes: 1909 (100.0)
+Año con el menor porcentaje de accidentes sin supervivientes: 2020 (37.5)
+
+
+
+
