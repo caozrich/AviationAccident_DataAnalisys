@@ -8,6 +8,7 @@ import numpy as np
 import seaborn as sns
 import streamlit as st
 #from prophet import Prophet
+from PIL import Image
 from st_on_hover_tabs import on_hover_tabs
 from streamlit_echarts import JsCode
 from streamlit_echarts import Map
