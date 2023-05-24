@@ -138,9 +138,9 @@ Se desarrolló un **dashboard** interactivo utilizando `Streamlit`, La interfaz 
 
 - Accede a la app desplegada en Streamlit Cloud (https://caozrich-aviationaccident-dataanalisys-streamlit-app-e7zt50.streamlit.app/) 
 
-### Observaciones/Conclusiones:
+## Observaciones/Conclusiones:
 
-## Observaciones:
+### Observaciones:
 - El número total de accidentes en el conjunto de datos es de **5008**, y el número total de víctimas mortales es de **111470**.
 - Los accidentes ocurrieron entre 1908 y 2021, con el mayor número de accidentes ocurriendo en las décadas de 1970 y **1980**.
 - El mes con más accidentes es Diciembre con un total de **10906**.
@@ -152,7 +152,7 @@ Se desarrolló un **dashboard** interactivo utilizando `Streamlit`, La interfaz 
 - El operador **Aeroflot** fue el que más accidentes y fatalidades tuvo.
 - En general, el conjunto de datos proporciona información valiosa sobre los accidentes de aviación civil en el último siglo, resaltando la importancia de los *esfuerzos continuos* para mejorar la seguridad aérea.
 
-## Conclusiones
+### Conclusiones
 * Desde 1985, ha habido una notable disminución en la cantidad de accidentes aéreos y fatalidades asociadas. Esta tendencia se debe a mejoras en los sistemas de seguridad, avances tecnológicos y una mayor conciencia sobre la importancia de la seguridad en la aviación. Las medidas y regulaciones más estrictas, junto con avances en la ingeniería de aeronaves, sistemas de navegación más precisos, mayor capacitación y enfoque en los factores humanos, han contribuido a esta reducción. La colaboración entre organizaciones internacionales y aerolíneas ha sido clave para compartir datos y mejores prácticas, identificar áreas de mejora y desarrollar soluciones efectivas para prevenir accidentes. En resumen, la mejora en la seguridad aérea se ha logrado gracias a un enfoque global en la seguridad, avances tecnológicos y una mayor conciencia sobre los riesgos y medidas preventivas.
 
 * Aunque la tendencia de accidentes aéreos ha disminuido, la tasa de mortalidad sigue siendo alta debido a la naturaleza intrínsecamente peligrosa de los accidentes de avión. A pesar de los avances en la seguridad de la aviación, sobrevivir a un accidente de avión sigue siendo extremadamente difícil debido a las fuerzas involucradas, la violencia del impacto y otros factores. Aunque se han implementado medidas para mejorar la resistencia de las aeronaves y la capacitación de la tripulación en situaciones de emergencia, es importante reconocer que la supervivencia en un accidente aéreo sigue siendo un desafío significativo.
