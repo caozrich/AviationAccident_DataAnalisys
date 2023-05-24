@@ -75,12 +75,19 @@ Los objetivos del proyecto son los siguientes:
 
 ### 3.Visualización de variables:
 - Número de accidentes por año: Representar gráficamente la cantidad de accidentes aéreos registrados en cada año.
+  * Se aprecia un decremento significativo desde **1990** y esto se debe a las mejora en los protocolos de seguridad.
 - Número de fatalidades por año: Mostrar la evolución del número de fatalidades en accidentes aéreos a lo largo de los años.
+  * Al igual que con el número de accidentes, las fatalidades también siguen la dicha tendencia debido a la correlación de esas dos variables.
 - Número de accidentes por país: Crear un gráfico que muestre la distribución de accidentes por país.
+  * Se aprecia claramente como **Estados Unidos** es el país con más accidentes aereos superando por mucho a los otros países con más accidentes, y esto se debe a que es una de las principales rutas de tráfico en la aeronáutica comercial.
 - Número de accidentes por mes: Visualizar la frecuencia de accidentes aéreos según el mes del año.
-- Número de accidentes por día: Mostrar la cantidad de accidentes aéreos por día del mes o día de la semana.
+  * El mes con mas accidentes aereos es **Diciembre**, y esto coincide con la descomposicion estacionaria que muestra un patron de incremento al final de cada año, Esto podría deberse al aumento del tráfico durante la temporada de festividades y vacaciones.
+- Número de accidentes por hora del  día: Mostrar la cantidad de accidentes aéreos por hora del día.
+  * Se aprecia un rango de tiempo (de **8:00 am** a **8:00 pm**) en el cual el número de accidentes es bastante alto. Esto se debe a que son horas de mayor actividad en el tráfico aéreo, coincidiendo con los horarios de mayor demanda de vuelos comerciales y operaciones aéreas en general.
 - Número de accidentes por operador: Representar gráficamente la frecuencia de accidentes según los operadores de las aeronaves involucradas.
+  * Se observa que el operador Aeroflot tiene un número de accidentes notablemente alto, considerando que el segundo puesto lo ocupa un operador militar. Esto podría deberse a que Aeroflot es una aerolínea establecida desde **1923** y la más grande de Rusia, lo que implica que su volumen de vuelos es proporcional a la cantidad de accidentes
 - Nube de palabras con la columna "summary": Generar una nube de palabras que resalte las palabras más frecuentes en la columna "summary" para identificar patrones o temas comunes.
+  * En este gráfico de nube de palabras se puede observar que las palabras más comunes en las descripciones de los accidentes coinciden con el contexto del conjunto de datos. Algunas de ellas son especialmente interesantes, como **_land, failure, takeoff, y ground_**.
 
 ### 4.Análisis estadístico:
 - Utilizar el método df.describe() para obtener estadísticas descriptivas de las variables numéricas del conjunto de datos.
@@ -153,9 +160,9 @@ Se desarrolló un **dashboard** interactivo utilizando `Streamlit`, La interfaz 
 - En general, el conjunto de datos proporciona información valiosa sobre los accidentes de aviación civil en el último siglo, resaltando la importancia de los *esfuerzos continuos* para mejorar la seguridad aérea.
 
 ### Conclusiones
-* Desde 1985, ha habido una notable disminución en la cantidad de accidentes aéreos y fatalidades asociadas. Esta tendencia se debe a mejoras en los sistemas de seguridad, avances tecnológicos y una mayor conciencia sobre la importancia de la seguridad en la aviación. Las medidas y regulaciones más estrictas, junto con avances en la ingeniería de aeronaves, sistemas de navegación más precisos, mayor capacitación y enfoque en los factores humanos, han contribuido a esta reducción. La colaboración entre organizaciones internacionales y aerolíneas ha sido clave para compartir datos y mejores prácticas, identificar áreas de mejora y desarrollar soluciones efectivas para prevenir accidentes. En resumen, la mejora en la seguridad aérea se ha logrado gracias a un enfoque global en la seguridad, avances tecnológicos y una mayor conciencia sobre los riesgos y medidas preventivas.
+* Desde *1985*, ha habido una notable disminución en la cantidad de accidentes aéreos y fatalidades asociadas. Esta tendencia se debe a mejoras en los sistemas de seguridad, avances tecnológicos y una mayor conciencia sobre la importancia de la seguridad en la aviación. Las medidas y regulaciones más estrictas, junto con avances en la ingeniería de aeronaves, sistemas de navegación más precisos, *mayor capacitación* y enfoque en los factores humanos, han contribuido a esta reducción. La colaboración entre organizaciones internacionales y aerolíneas ha sido clave para compartir datos y mejores prácticas, identificar áreas de mejora y desarrollar *soluciones efectivas* para prevenir accidentes. En resumen, la mejora en la seguridad aérea se ha logrado gracias a un enfoque global en la seguridad, avances tecnológicos y una mayor conciencia sobre los riesgos y medidas preventivas.
 
-* Aunque la tendencia de accidentes aéreos ha disminuido, la tasa de mortalidad sigue siendo alta debido a la naturaleza intrínsecamente peligrosa de los accidentes de avión. A pesar de los avances en la seguridad de la aviación, sobrevivir a un accidente de avión sigue siendo extremadamente difícil debido a las fuerzas involucradas, la violencia del impacto y otros factores. Aunque se han implementado medidas para mejorar la resistencia de las aeronaves y la capacitación de la tripulación en situaciones de emergencia, es importante reconocer que la supervivencia en un accidente aéreo sigue siendo un desafío significativo.
+* Aunque la tendencia de accidentes aéreos ha venido disminuyendo a lo largo de las últimas cuatro décadas, la *tasa de mortalidad* sigue siendo alta debido a la naturaleza intrínsecamente peligrosa de los accidentes de avión. A pesar de los avances en la seguridad de la aviación, sobrevivir a un accidente de avión sigue siendo extremadamente difícil debido a las fuerzas involucradas, la violencia del impacto y otros factores. Aunque se han implementado medidas para mejorar la resistencia de las aeronaves y la capacitación de la tripulación en situaciones de emergencia, es importante reconocer que la supervivencia en un accidente aéreo sigue siendo un desafío significativo.
 
 ### Uso
 1. Clona el repositorio a través de ``` https://https://github.com/caozrich/AviationAccident_DataAnalisys```  o descarga el repositorio.
