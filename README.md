@@ -85,14 +85,17 @@ Presentar los hallazgos obtenidos del análisis de datos a través del informe d
 ### 4.Análisis estadístico:
 - Utilizar el método df.describe() para obtener estadísticas descriptivas de las variables numéricas del conjunto de datos.
 - Calcular la matriz de correlación para evaluar las relaciones entre las variables numéricas y detectar posibles correlaciones.
+  * Se puede destacar la correlacion entre las fatalidades y los pasajeros a bordo, ya que son proporcionales una a la otra, la tendencia es que entre mas pasajeros a bordo mas numero de fatalidades.
 - Realizar análisis univariado de variables específicas para comprender su distribución y características individuales.
 
 ### 5. Forecasting (de fatalidades por año):
 -Realizar una exploración visual y estadística de la variable objetivo para comprender su distribución, tendencia y patrones temporales.
+  * la descomposicíon estacional nos dejo ver que hay un incremento a final de cada año y posterior decremento al comienzo del   siguiente.
 
 ### 6. Detección de outliers numéricas:
 - Seleccionar las variables numéricas relevantes en las que se desea detectar outliers.
 - Aplicar métodos de detección de outliers, como el rango intercuartil (IQR) Y el método de los valores extremos
+  *  la fecha 1977-03-27 tuvo un total de  **644.0** pasajeros a bordo, y un total de **583.0** fallecidos, siendo estos valores una anomalia ya que la media de fatalidades es **22**
 
 
 ## KPIs
@@ -157,7 +160,7 @@ Se desarrolló un **dashboard** interactivo utilizando `Streamlit`, La interfaz 
 
 ## Contribuciones
 
-Si estás interesado en desarrollar habilidades como MLOps Engineer, este proyecto de código abierto es perfecto para ti. Estoy abierto a contribuciones y sugerencias, por lo que si deseas colaborar, sigue las siguientes instrucciones:
+Si estás interesado en desarrollar habilidades como Data Analyst, este proyecto de código abierto es perfecto para ti. Estoy abierto a contribuciones y sugerencias, por lo que si deseas colaborar, sigue las siguientes instrucciones:
 
 * Haga un fork del repositorio
 * Cree una nueva rama con su característica o corrección
