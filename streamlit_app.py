@@ -884,14 +884,15 @@ def page_5():
             cursor.execute(raw_code)
             result = cursor.fetchall()
 
+            with st.expander("Resultados tabla:"):
+                query_df = pd.DataFrame(result, columns=[desc[0] for desc in cursor.description])
+                st.dataframe(query_df)
+                
             with st.expander("Resultados:"):
                 st.write(result)
 
-            with st.expander("Tabla:"):
-                query_df = pd.DataFrame(result, columns=[desc[0] for desc in cursor.description])
-                st.dataframe(query_df)
-
-  
+                
+    st.divider() 
 
 with st.sidebar:
     tabs = on_hover_tabs(tabName=['Dashboard', 'Reporte de análisis', 'SQL'], 
