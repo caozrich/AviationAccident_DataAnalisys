@@ -12,10 +12,10 @@
 - [EDA](#Análisis-Exploratorio-de-Datos-EDA)
 - [KPIs](#KPIs)
 - [Dashboard](#Dashboard)
-- [Observaciones/Conclusiones]
+- [Observaciones/Conclusiones](#Observaciones/Conclusiones)
 - [Contribuciones](#Contribuciones)
 - [Contacto](#Contacto)
-- 
+
 ### Descripción del Problema
 Los accidentes aéreos son eventos imprevistos y no deseados que causan daños físicos tanto a las personas como a las aeronaves involucradas. Pueden afectar cualquier tipo de aeronave, desde aviones comerciales hasta aviones privados, helicópteros y planeadores.El objetivo es recopilar, analizar y visualizar datos relevantes sobre accidentes aéreos para identificar patrones y tendencias en la seguridad de la aviación civil, lo cual puede conducir a mejoras significativas en la seguridad.
 
@@ -124,7 +124,7 @@ Presentar los hallazgos obtenidos del análisis de datos a través del informe d
   * Año con el mayor porcentaje de accidentes sin supervivientes: **1909** (100.0).
   * Año con el menor porcentaje de accidentes sin supervivientes: **2020** (37.5).
 
-## Aplicación Web:
+## Dashboard:
 
 <img src="https://github.com/caozrich/AviationAccident_DataAnalisys/assets/34092193/e1a82247-9d5e-466f-8850-b786d849770a" width="700" height="438"/>
 <img src="https://github.com/caozrich/AviationAccident_DataAnalisys/assets/34092193/f2441136-5705-4588-ac8f-2dd4661800d3" width="700" height="438"/>
