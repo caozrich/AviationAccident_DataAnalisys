@@ -4,6 +4,7 @@ numpy==1.24.3
 streamlit_echarts
 streamlit-on-Hover-tabs
 matplotlib
+sqlite3
 prophet
 pandas
 seaborn
