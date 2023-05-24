@@ -101,13 +101,13 @@ Presentar los hallazgos obtenidos del análisis de datos a través del informe d
    * Año con la tasa de mortalidad más alta: **1919** (115).
    * Año con la tasa de mortalidad más baja: **1999** (30).
    
-**_TTasa de supervivencia_**: Proporción de personas que sobreviven a los accidentes aéreos. 
--Muestra la efectividad de las medidas de rescate y evacuación, y se expresa como un porcentaje.
+**_Tasa de supervivencia_**: Proporción de personas que sobreviven a los accidentes aéreos. 
+- Muestra la efectividad de las medidas de rescate y evacuación, y se expresa como un porcentaje.
    * Tasa de supervivencia total: **30.77**.
    * Año con la tasa de supervivencia más alta: **1909** (100.0).
    * Año con la tasa de supervivencia más baja: **1919** (-5.0).
    
-**_Media de fallecidos**_: Promedio del número de fallecidos en accidentes aéreos.
+**_Media de fatalidades**: Promedio del número de fallecidos en accidentes aéreos.
 - Brinda una medida general del impacto en pérdidas humanas.
   * Media de fatalidades total: **22.29**.
   * Año con el media más alta de fatalidades: **2014** (49.6).
