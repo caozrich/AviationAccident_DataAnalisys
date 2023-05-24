@@ -34,7 +34,7 @@ Los objetivos del proyecto son los siguientes:
 
 - [x] Generar KPIs relevantes para evaluar la seguridad de la aviación civil, incluyendo la reducción en un 5% anual de la tasa de mortalidad en accidentes aéreos, junto con otros 3 KPIs adicionales que usted deberá generar.
 
-Presentar los hallazgos obtenidos del análisis de datos a través del informe detallado y el dashboard interactivo.
+- [x] Presentar los hallazgos obtenidos del análisis de datos a través del informe detallado.
 
 ## Extracción, Transformación y Carga (ETL):
 
