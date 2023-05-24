@@ -848,7 +848,7 @@ with st.sidebar:
                          iconName=['dashboard', 'plagiarism'], default_choice=0)
 
 if tabs =='Dashboard':
-    st.title("Dashboard")
+    st.title("Dashboard - Accidentes aéreos")
     tab1,tab2,tab3 = st.tabs(["General Data", "Specific Data", "Forecasting"])
     with tab1:
         page_1()
