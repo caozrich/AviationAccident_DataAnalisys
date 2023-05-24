@@ -37,10 +37,10 @@ Presentar los hallazgos obtenidos del análisis de datos a través del informe d
 
 ## Extracción, Transformación y Carga (ETL):
 
-[Acede aquí al júpiter notebook](https://github.com/caozrich/AviationIncidentDashboard/blob/main/ETL.ipynb)
+[Acede aquí al júpiter notebook](https://github.com/caozrich/AviationAccident_DataAnalisys/blob/main/ETL.ipynb)
 
 ### 1. cargar los dataset a usar:
-- Cargar el dataset [provisto](https://github.com/caozrich/AviationIncidentDashboard/blob/main/data/AccidentesAviones.csv)  y el   dataset adicional _https://www.kaggle.com/datasets/warcoder/civil-aviation-accidents?resource=download_.
+- Cargar el dataset [provisto](https://github.com/caozrich/AviationAccident_DataAnalisys/blob/main/data/AccidentesAviones.csv)  y el   dataset adicional _https://www.kaggle.com/datasets/warcoder/civil-aviation-accidents?resource=download_.
 
 ### 2. Corregir nombre de columnas y reemplazar nulos por "?":
 - Verificar y corregir los nombres de las columnas del dataset para asegurar consistencia.
@@ -62,9 +62,9 @@ Presentar los hallazgos obtenidos del análisis de datos a través del informe d
 - Asegurarse de que el archivo .csv sea fácilmente accesible y esté listo para su uso posterior en análisis y visualización.
 
 ## Análisis Exploratorio de Datos (EDA)
-[Acede aquí al júpiter notebook](https://github.com/caozrich/AviationIncidentDashboard/blob/main/EDA.ipynb)
+[Acede aquí al júpiter notebook](https://github.com/caozrich/AviationAccident_DataAnalisys/blob/main/EDA.ipynb)
 
-<img src="https://github.com/caozrich/AviationIncidentDashboard/assets/34092193/abe6f226-dffe-4126-9718-8263dc71c251" width="800" height="538"/>
+<img src="https://github.com/caozrich/AviationAccident_DataAnalisys/assets/34092193/abe6f226-dffe-4126-9718-8263dc71c251" width="800" height="538"/>
 
 ### 1.Lectura del conjunto de datos:
 - Utilizar la función pd.read_csv() para cargar el conjunto de datos en un DataFrame. 
