@@ -12,6 +12,7 @@
 - [EDA](#Análisis-Exploratorio-de-Datos-EDA)
 - [KPIs](#KPIs)
 - [Dashboard](#Dashboard)
+- [Observaciones/Conclusiones]
 - [Contribuciones](#Contribuciones)
 - [Contacto](#Contacto)
 - 
@@ -86,12 +87,13 @@ Presentar los hallazgos obtenidos del análisis de datos a través del informe d
 - Calcular la matriz de correlación para evaluar las relaciones entre las variables numéricas y detectar posibles correlaciones.
 - Realizar análisis univariado de variables específicas para comprender su distribución y características individuales.
 
-## 5. Forecasting (de fatalidades por año):
+### 5. Forecasting (de fatalidades por año):
 -Realizar una exploración visual y estadística de la variable objetivo para comprender su distribución, tendencia y patrones temporales.
 
-## 6. Detección de outliers numéricas:
+### 6. Detección de outliers numéricas:
 - Seleccionar las variables numéricas relevantes en las que se desea detectar outliers.
 - Aplicar métodos de detección de outliers, como el rango intercuartil (IQR) Y el método de los valores extremos
+
 
 ## KPIs
 
@@ -119,6 +121,57 @@ Presentar los hallazgos obtenidos del análisis de datos a través del informe d
   * Año con el mayor porcentaje de accidentes sin supervivientes: **1909** (100.0).
   * Año con el menor porcentaje de accidentes sin supervivientes: **2020** (37.5).
 
+## Aplicación Web:
 
+<img src="https://github.com/caozrich/FilmRecSys-ML-DevOps/assets/34092193/b420beb7-718e-412a-992b-ff8a39fb998c" width="700" height="438"/>
+
+Se desarrolló un **dashboard** interactivo utilizando `Streamlit`, La interfaz es intuitiva y fácil de usar.
+
+
+- Accede a la app desplegada en Streamlit Cloud (https://caozrich-aviationaccident-dataanalisys-streamlit-app-e7zt50.streamlit.app/) 
+
+### Observaciones/Conclusiones:
+
+## Observaciones:
+- El número total de accidentes en el conjunto de datos es de **5008**, y el número total de víctimas mortales es de **111470**.
+- Los accidentes ocurrieron entre 1908 y 2021, con el mayor número de accidentes ocurriendo en las décadas de 1970 y **1980**.
+- El mes con más accidentes es Diciembre con un total de **10906**.
+- El rango de hora del día con más accidentes es desde las 10 pm hasta las 8 pm.
+- Los tipos de aviones más comunes involucrados en los accidentes fueron **Douglas DC-3**, de Havilland Canada DHC-6 Twin Otter y Cessna 208 Caravan.
+- Los tipos de aviones más antiguos, como el **Douglas DC-3**, presentaron una proporción más alta de fatalidades en comparación con - los modelos más modernos.
+- Los operadores más comunes involucrados en los accidentes fueron Militar - Fuerza Aérea de los Estados Unidos y **Aeroflot**.
+- Los países más comunes donde ocurrieron los accidentes fueron **Estados Unidos, Rusia, Colombia y Brasil**.
+- El operador **Aeroflot** fue el que más accidentes y fatalidades tuvo.
+- En general, el conjunto de datos proporciona información valiosa sobre los accidentes de aviación civil en el último siglo, resaltando la importancia de los *esfuerzos continuos* para mejorar la seguridad aérea.
+
+## Conclusiones
+* Desde 1985, ha habido una notable disminución en la cantidad de accidentes aéreos y fatalidades asociadas. Esta tendencia se debe a mejoras en los sistemas de seguridad, avances tecnológicos y una mayor conciencia sobre la importancia de la seguridad en la aviación. Las medidas y regulaciones más estrictas, junto con avances en la ingeniería de aeronaves, sistemas de navegación más precisos, mayor capacitación y enfoque en los factores humanos, han contribuido a esta reducción. La colaboración entre organizaciones internacionales y aerolíneas ha sido clave para compartir datos y mejores prácticas, identificar áreas de mejora y desarrollar soluciones efectivas para prevenir accidentes. En resumen, la mejora en la seguridad aérea se ha logrado gracias a un enfoque global en la seguridad, avances tecnológicos y una mayor conciencia sobre los riesgos y medidas preventivas.
+
+* Aunque la tendencia de accidentes aéreos ha disminuido, la tasa de mortalidad sigue siendo alta debido a la naturaleza intrínsecamente peligrosa de los accidentes de avión. A pesar de los avances en la seguridad de la aviación, sobrevivir a un accidente de avión sigue siendo extremadamente difícil debido a las fuerzas involucradas, la violencia del impacto y otros factores. Aunque se han implementado medidas para mejorar la resistencia de las aeronaves y la capacitación de la tripulación en situaciones de emergencia, es importante reconocer que la supervivencia en un accidente aéreo sigue siendo un desafío significativo.
+
+### Uso
+1. Clona el repositorio a través de ``` https://https://github.com/caozrich/AviationAccident_DataAnalisys```  o descarga el repositorio.
+ > Nota: La clonación del repositorio puede llevar algo de tiempo debido a que los conjuntos de datos son relativamente grandes.
+2. Instala las dependencias con ```pip install -r requirements.txt```.
+3. Ejecuta la aplicación con streamlit run streamlit_app.py. La aplicación se abrirá en tu navegador web local.
+
+## Contribuciones
+
+Si estás interesado en desarrollar habilidades como MLOps Engineer, este proyecto de código abierto es perfecto para ti. Estoy abierto a contribuciones y sugerencias, por lo que si deseas colaborar, sigue las siguientes instrucciones:
+
+* Haga un fork del repositorio
+* Cree una nueva rama con su característica o corrección
+* Realice sus cambios y asegúrese de seguir las mejores prácticas de codificación y documentación
+* Realice un pull request y espere la revisión y aprobación.
+
+## Licencia
+
+* Este proyecto está licenciado bajo la licencia [MIT](https://opensource.org/licenses/MIT)
+
+## Contacto
+
+Si tiene alguna pregunta o comentario sobre este proyecto, no dude en ponerse en contacto a través de un mensaje directo a mi correo `libreros00@gmail.com` o abriendo un issue en este repositorio.
+
+⭐ Este repositorio si te resulto útil!
 
 
