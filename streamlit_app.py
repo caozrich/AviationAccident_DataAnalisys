@@ -14,8 +14,8 @@ from streamlit_echarts import Map
 from streamlit_echarts import st_echarts
 from CSS_styles import apply_styles
 
-dfo = pd.read_csv("/data/AA_Clean.csv")
-df2 = pd.read_csv("/data/merged_data.csv")
+dfo = pd.read_csv("data/AA_Clean.csv")
+df2 = pd.read_csv("data/merged_data.csv")
 
 dfo['date'] = pd.to_datetime(dfo['date'], errors='coerce')
 
@@ -23,7 +23,7 @@ apply_styles()
 
 st.set_page_config(layout="wide")
 
-st.markdown('<style>' + open('/css/style.css').read() + '</style>', unsafe_allow_html=True)
+st.markdown('<style>' + open('css/style.css').read() + '</style>', unsafe_allow_html=True)
 
 def box_label (wch_colour_box,i,sline,iconname): #color, titulo, dato
     wch_colour_font = (255,255,255)
@@ -72,7 +72,7 @@ def page_1():
         + "return params.seriesName + '<br/>' + params.name + ': ' + value;}"
     ).js_code
 
-    with open("/data/world.json", "r") as f:
+    with open("data/world.json", "r") as f:
         world_map_data = json.loads(f.read())
 
 
