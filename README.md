@@ -97,6 +97,7 @@ Los objetivos del proyecto son los siguientes:
 
 ### 4.Análisis estadístico:
 - Utilizar el método df.describe() para obtener estadísticas descriptivas de las variables numéricas del conjunto de datos.
+  * La media de fatalidades es de **22.2** mientras que la de pasajeros a bordo es de **31.0**, esto deja ver que el indice de fatalidad es bastante alto.
 - Calcular la matriz de correlación para evaluar las relaciones entre las variables numéricas y detectar posibles correlaciones.
   * Se puede destacar la correlacion entre las fatalidades y los pasajeros a bordo, ya que son proporcionales una a la otra, la tendencia es que entre mas pasajeros a bordo mas numero de fatalidades.
 - Realizar análisis univariado de variables específicas para comprender su distribución y características individuales.
