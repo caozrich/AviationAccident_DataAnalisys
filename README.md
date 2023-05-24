@@ -24,7 +24,7 @@ En este proyecto, usted asumirá el rol de Data Analyst dentro de la Organizaci�
 
 ## Objetivos del Proyecto
 
-- [x]  Los objetivos del proyecto son los siguientes:
+Los objetivos del proyecto son los siguientes:
 
 - [x] Realizar el análisis de datos de accidentes aéreos, utilizando los datos proporcionados por la OACI y otras fuentes disponibles públicamente.
 
