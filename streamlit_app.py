@@ -839,7 +839,10 @@ def page_4():
   st.write(" ")
   st.write(" ")
   st.write(" ")
-  st.markdown("¡Gracias por leer mi reporte de análisis de Accidentes Aéreos! `:D`")
+  st.write(" ")
+  st.write(" ")
+  st.write(" ")
+  st.markdown("¡Gracias por leer mi reporte de análisis de Accidentes Aéreos! by Richard Libreros `:D`")
 
 
 
