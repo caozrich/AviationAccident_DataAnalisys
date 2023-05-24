@@ -1,17 +1,18 @@
-from st_on_hover_tabs import on_hover_tabs
-import json
-import pandas as pd
-from datetime import datetime
-from streamlit_echarts import Map
-from streamlit_echarts import JsCode
-from streamlit_echarts import st_echarts
 import altair as alt
+import json
+import matplotlib.pyplot as plt
+import pandas as pd
+from collections import defaultdict
+from datetime import datetime
+import numpy as np
+import seaborn as sns
 import streamlit as st
 from prophet import Prophet
-import matplotlib.pyplot as plt
+from st_on_hover_tabs import on_hover_tabs
+from streamlit_echarts import JsCode
+from streamlit_echarts import Map
+from streamlit_echarts import st_echarts
 from CSS_styles import apply_styles
-from collections import defaultdict
-
 
 dfo = pd.read_csv("/data/AA_Clean.csv")
 df2 = pd.read_csv("/data/merged_data.csv")
