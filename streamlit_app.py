@@ -14,14 +14,14 @@ from streamlit_echarts import Map
 from streamlit_echarts import st_echarts
 from CSS_styles import apply_styles
 
+st.set_page_config(layout="wide")
+
 dfo = pd.read_csv("data/AA_Clean.csv")
 df2 = pd.read_csv("data/merged_data.csv")
 
 dfo['date'] = pd.to_datetime(dfo['date'], errors='coerce')
 
 apply_styles()
-
-st.set_page_config(layout="wide")
 
 st.markdown('<style>' + open('css/style.css').read() + '</style>', unsafe_allow_html=True)
 
