@@ -866,27 +866,27 @@ def page_5():
     with col1:
         with st.form(key='query_form'):
             raw_code = st.text_area("SQL query:","SELECT * FROM accidentes_aereos LIMIT 10")
-            submit_code = st.form_submit_button("Execute")
+            submit_code = st.form_submit_button("Ejecutar")
 
         # Table of Info
-        with st.expander("Tabla Info"):
+        with st.expander("Info Tabla"):
             table_info = {'accidentes_aereos': accidentes_aereos}
             st.json(table_info)
 
     # Results Layouts
     with col2:
         if submit_code:
-            st.info("Query Submitted")
+            st.info("Query enviada")
             st.code(raw_code)
 
             # Results
             cursor.execute(raw_code)
             result = cursor.fetchall()
 
-            with st.expander("Results"):
+            with st.expander("Resultados:"):
                 st.write(result)
 
-            with st.expander("Pretty Table"):
+            with st.expander("Tabla:"):
                 query_df = pd.DataFrame(result, columns=[desc[0] for desc in cursor.description])
                 st.dataframe(query_df)
 
@@ -894,7 +894,7 @@ def page_5():
 
 with st.sidebar:
     tabs = on_hover_tabs(tabName=['Dashboard', 'Reporte de análisis', 'SQL'], 
-                         iconName=['dashboard', 'plagiarism','database'], default_choice=0)
+                         iconName=['dashboard', 'plagiarism','table'], default_choice=0)
 
 if tabs =='Dashboard':
     st.title("Dashboard")
