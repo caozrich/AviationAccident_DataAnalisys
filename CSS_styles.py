@@ -1,3 +1,7 @@
+#CSS styles---------
+import streamlit as st
+import base64
+
 def set_bg_hack(main_bg):
 
         main_bg_ext = "png"
