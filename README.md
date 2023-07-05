@@ -13,7 +13,7 @@
 - [EDA](#Análisis-Exploratorio-de-Datos-EDA)
 - [KPIs](#KPIs)
 - [Dashboard](#Dashboard)
-- [Observaciones/Conclusiones](#Observaciones/Conclusiones)
+- [Observaciones y Conclusiones](#Observaciones-y-Conclusiones)
 - [Contribuciones](#Contribuciones)
 - [Contacto](#Contacto)
 
@@ -154,7 +154,7 @@ Se desarrolló un **dashboard** interactivo utilizando `Streamlit`, La interfaz 
 
 - Accede a la app desplegada en Streamlit Cloud (https://caozrich-aviationaccident-dataanalisys-streamlit-app-e7zt50.streamlit.app/) 
 
-## Observaciones/Conclusiones:
+## Observaciones y Conclusiones:
 
 ### Observaciones:
 - El número total de accidentes en el conjunto de datos es de **5008**, y el número total de víctimas mortales es de **111470**.
