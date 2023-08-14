@@ -142,10 +142,8 @@ Los objetivos del proyecto son los siguientes:
 
 ## Dashboard:
 
-<img src="https://github.com/caozrich/AviationAccident_DataAnalisys/assets/34092193/e1a82247-9d5e-466f-8850-b786d849770a" width="700" height="438"/>
-<img src="https://github.com/caozrich/AviationAccident_DataAnalisys/assets/34092193/f2441136-5705-4588-ac8f-2dd4661800d3" width="700" height="438"/>
-<img src="https://github.com/caozrich/AviationAccident_DataAnalisys/assets/34092193/72ac376b-cc82-48d5-8262-0fffb39a2b56" width="700" height="438"/>
-<img src="https://github.com/caozrich/AviationAccident_DataAnalisys/assets/34092193/589b89d7-d523-4fad-af87-e0315a943871" width="700" height="438"/>
+<img src="https://github.com/caozrich/AviationAccident_DataAnalisys/assets/34092193/351f957c-4238-46b6-bcd8-c2771ac44af3" width="700" height="438"/>
+
 
 Se desarrolló un **dashboard** interactivo utilizando `Streamlit`, La interfaz es intuitiva y fácil de usar.
  * contiene graficos interactivos de varios tipos
