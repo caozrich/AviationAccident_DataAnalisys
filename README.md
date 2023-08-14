@@ -22,7 +22,7 @@
 Los accidentes aéreos son eventos imprevistos y no deseados que causan daños físicos tanto a las personas como a las aeronaves involucradas. Pueden afectar cualquier tipo de aeronave, desde aviones comerciales hasta aviones privados, helicópteros y planeadores.El objetivo es recopilar, analizar y visualizar datos relevantes sobre accidentes aéreos para identificar patrones y tendencias en la seguridad de la aviación civil, lo cual puede conducir a mejoras significativas en la seguridad.
 
 ### Rol a Desarrollar
-En este proyecto, usted asumirá el rol de Data Analyst dentro de la Organización de Aviación Civil Internacional (OACI). Como Data Analyst, será responsable de realizar el análisis de datos de accidentes aéreos y desarrollar un dashboard interactivo que permita a los usuarios explorar los datos y obtener información detallada sobre accidentes específicos. También deberá generar KPIs relevantes para el análisis de seguridad de la aviación civil.
+En este proyecto, se asumirá el rol de Data Analyst dentro de la Organización de Aviación Civil Internacional (OACI). Como Data Analyst, se es responsable de realizar el análisis de datos de accidentes aéreos y desarrollar un dashboard interactivo que permita a los usuarios explorar los datos y obtener información detallada sobre accidentes específicos. También se deberá generar KPIs relevantes para el análisis de seguridad de la aviación civil.
 
 ## Objetivos del Proyecto
 
